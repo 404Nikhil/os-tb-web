@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '  https://fbf2-2409-40c2-1032-9e31-ad82-816f-7f2e-4812.ngrok-free.app/api';
 
 export const fetchSystemData = async () => {
   try {
